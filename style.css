@@ -1,0 +1,243 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+html{height:100%}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+.donbass{
+    background-color: #fffacc;
+}
+.lg{
+    max-width: 130px; 
+    max-height: 52px;
+    display: flex;
+    justify-content: center;
+}
+.pchm{
+    font-family: Yanone Kaffeesatz;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.row.p-2{
+    background-color: #ffd9ae;
+    border-radius: 45px;
+    border: 3px solid black;
+}
+.hd1{
+    margin: 0;
+    font-family: Yanone Kaffeesatz;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.png1{
+    max-width: 648px;
+}
+.hdd1{
+    font-family: Sofia Sans;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.mt1{
+    font-family: Comfortaa;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.btn1{
+    font-family: Comfortaa;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 15px 63px;
+    border-radius: 20px;
+    border: 3px solid black;
+    background-color: #ffd9ae;
+    margin-top: 48px;
+}
+.mt2{
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.mt3{
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.btn2{
+    font-family: Yanone Kaffeesatz;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 45px 217px;
+    border-radius: 20px;
+    border: 3px solid black;
+    background-color: #ffd9ae;
+    margin-top: 64px;
+}
+.hd2{
+    font-family: Comfortaa;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.mt4{
+    font-family: Comfortaa;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.xui{
+    
+    background-color: #ffd9ae;
+    border-radius: 45px;
+    border: 3px solid black;
+}
+.ggnb{
+    padding: 69px 19px 0px 109px;
+}
+.icn{
+    max-width: 68px;
+    padding-right: 17px;
+    padding-bottom: 66px;
+}
+.ggb{
+    padding-left: 123px;
+}
+.bgr{
+    display: none;
+}
+.form-label{
+    font-family: Comfortaa;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.form-check-label{
+    font-family: Comfortaa;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.bbt{
+    padding: 5px;
+    background-color: #ffd9ae;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-family: Comfortaa;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.modal.dialog{
+    background-color: #fffacc;
+}
+@media (max-width: 1400px){
+    .pchm{
+    display: none;
+    }
+    .bgr{
+        display: flex;
+        justify-content: end;
+    }
+    .png1{
+        max-height: 570px;
+    }
+    .mt1{
+        font-size: 20px;
+    }
+}
+@media (max-width: 991px){
+    .btn1{
+        font-size: 20px;
+    }
+    .png1{
+        max-height: 360px;
+    }
+    .hdd1{
+        font-size: 23px;
+    }
+    .mt1{
+        font-size: 15px;
+    }
+    .btn1{
+        font-size: 12px;
+        margin-top: 35px;
+    }
+    .ggnb{
+        padding: 40px 19px 0px 60px;
+    }
+}
+@media (max-width: 767px){
+    .hdd1{
+        font-size: 16px;
+    }
+    .mt1{
+        font-size: 10px;
+    }
+    .btn1{
+        font-size: 12px;
+        margin-top: 35px;
+    }
+    .mt2{
+        font-size: 16px;
+    }
+    .mt3{
+        font-size: 16px;
+    }
+    .btn2{
+        font-size: 21px;
+        padding: 22px 109px;
+    }
+    .hd2{
+        font-size: 13px;
+    }
+    .mt4{
+        font-size: 8px;
+    }
+    .icn{
+        max-width: 34px;
+    }
+}
+@media (max-width: 575px){
+    .afk{
+        padding: 0;
+    }
+}
+@media (max-width: 488px){
+    .png1{
+        max-height: 240px;
+    }
+}
+@media (max-width: 394px){
+    .png1{
+        max-height: 180px;
+    }
+}
+@media (max-width: 320px){
+    .png1{
+        display: none;
+    }
+}
