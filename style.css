@@ -222,6 +222,9 @@ table{border-collapse:collapse;border-spacing:0}
     }
 }
 @media (max-width: 575px){
+    .png1{
+        max-height: 300px;
+    }
     .htn6{
         flex-direction:column;
     }
@@ -239,9 +242,4 @@ table{border-collapse:collapse;border-spacing:0}
         max-height: 180px;
     }
 }
-@media (max-width: 320px){
-    .png1{
-        max-height: 100px;
-       
-    }
-}
+
